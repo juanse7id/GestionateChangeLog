@@ -69,3 +69,116 @@ Registro e historial de cambios y actualizaciones del proyecto GESTIONATE
 - Validación de fechas apuntando al servidor para realizar las validaciones 
 - Ver en el login la versión del autenticador
 - En el área de Conceptos, el ADMIN puede habilitarlos o deshabilitarlos, el RRHH solo puede editarlos.
+
+----
+## Versión: 1.3.5
+### 17/5/23
+#
+### **Added** (Se agregó)
+- Sección de ayuda para los campos de "Configuración" del rol ADMIN
+- Carpetas, donde se guardan todos los comprobantes por Fecha y por Cuil, que a su vez poseen subcarpetas de los distintos Cuils y las distintas Fechas
+
+### **Changed** (Se cambió)
+- Nombres de todos los comprobantes, este nuevo nombre incluye: ID de la novedad, Año, Mes, Cuil y Legajo
+
+### **Fixed** (arreglado)
+- Texto largo en observación de novedad  
+- ADELA en exportacion de TXT
+
+----
+## Versión: 1.3.6
+### 19/7/23
+#
+### **Added** (Se agregó)
+- Dashboard PERSONAL para TODOS los usuarios
+- Dashboard EQUIPO, para los LIDERES
+- Dashboard RRHH, para los usuarios RRHH
+- Sección NOTAS en las NOVEDADES, es una mensajería asincrónica
+
+### **Changed** (Se cambió)
+- Automatización de ETL (Tecnología)
+
+### **Fixed** (arreglado)
+- Spinner en cambio de estado de NOVEDAD
+
+----
+## Versión: 1.3.7
+### 31/8/23
+#
+### **Added** (Se agregó)
+- Filtro por empresa en listado de novedades nuevas en DASHBOARD RRHH
+- Tango Delta 2
+- Validación de conceptos de novedades de acuerdo al género
+
+### **Changed** (Se cambió)
+- Refactorizacion de los ETL (se incluyó la jornada reducida y completa)
+- Leyenda al cargar comprobantes
+
+### **Fixed** (arreglado)
+- Bug rol LIDER, en crear novedades a los colaboradores desde equipo
+
+----
+## Versión: 1.3.8
+### 15/9/23
+#
+### **Added** (Se agregó)
+- En DASHBOARD PERSONAL, la tarjeta de “Saldo Dias de Estudio”
+- En DASHBOARD RRHH, lista de "saldos de días de vacaciones", con un filtro por empresa y etiquetas color rojo para colaboradores que poseen menos de 6 meses en la empresa
+
+### **Changed** (Se cambió)
+- En CONTROL DE NOVEDADES, se comenzó a mostrar el detalle de la Novedad completa
+
+### **Breaking** (se quitó)
+-  En DASHBOARD PERSONAL, el formulario de solicitud de reunión
+
+----
+## Versión: 1.3.9
+### 12/10/23
+#
+### **Added** (Se agregó)
+- Validaciones al crear novidad tipo: "Matrimonio", "Excedencia", "Maternidad" y "Estudio"
+- Nota de "error de usuario/contraseña" en el LOGIN
+
+### **Breaking** (se quitó)
+- Ordenamiento por “Impte/Cant y Certif.” en NOVEDADES POR EQUIPO
+- Ordenamiento por "Departamento" en EQUIPO 
+
+### **Fixed** (arreglado)
+- Error de respuesta al sincronizar colaboradores (falta de datos en el legajo)
+- Importador de CSV en “Novedades Externas”, con apellidos de 3 letras y con "Ñ"
+
+----
+## Versión: 1.3.9v2
+### 07/11/23
+#
+### **Added** (Se agregó)
+- Cartel de inactividad, que desloguea al usuario de la app
+- Pop-up que notifica la fecha de cobro del adelanto de sueldo
+- Responsive a la ventana “Notas”  de las novedades. 
+
+### **Changed** (Se cambió)
+- Ubicacion del numero de versión de la app
+
+### **Breaking** (se quitó)
+- Las novedades de “Lic. Familiar Enfermo” y “Lic Matrimonio” de la exportación del TXT
+
+### **Fixed** (arreglado)
+- Saldos de vacaciones, con nueva logica (redondea saldo a favor del colaborador)
+- Bug de scroll en ventana de Novedades Nuevas en Dashboard
+- Diferencias del cálculo de antigüedad
+
+----
+## Versión: 1.3.10
+### 12/12/23
+#
+### **Added** (Se agregó)
+- Guardado automático al subir comprobantes
+- Actualización  versión de FUSE para rol COLABORADOR
+
+### **Changed** (Se cambió)
+- Autenticador Fava-auth
+- Envío de mails con cuenta corporativa 
+
+### **Fixed** (arreglado)
+- Boton "EDITAR" repetido en novedad "A CORREGIR"
+- Base de Datos, tabla ORIGEN NOVEDAD con formato de fechas erróneo
