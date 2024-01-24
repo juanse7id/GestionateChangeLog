@@ -181,4 +181,4 @@ Registro e historial de cambios y actualizaciones del proyecto GESTIONATE
 
 ### **Fixed** (arreglado)
 - Boton "EDITAR" repetido en novedad "A CORREGIR"
-- Base de Datos, tabla ORIGEN NOVEDAD con formato de fechas erróneo
+- Base de Datos, tabla ORIGEN NOVEDAD con formato de fechas erróneo.
