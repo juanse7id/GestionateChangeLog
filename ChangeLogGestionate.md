@@ -182,3 +182,23 @@ Registro e historial de cambios y actualizaciones del proyecto GESTIONATE
 ### **Fixed** (arreglado)
 - Boton "EDITAR" repetido en novedad "A CORREGIR"
 - Base de Datos, tabla ORIGEN NOVEDAD con formato de fechas erróneo.
+
+----
+## Versión: v1.24.S12
+### 16/05/24
+#
+### **Added** (Se agregó)
+- Servidor de testing.
+- Boton ‘Cambio de Roles’ para usuarios: RRHH y LÍDER.
+- Envio de mail de novedad RECHAZADA a colaborador y líder.
+
+### **Changed** (Se cambió)
+- Actualización del nuevo FUSE. 
+- Actualización ANGULAR.
+- Actualización versión JAVA.
+
+### **Fixed** (arreglado)
+- Se corrigió error al estar redactando una novedad observada que la app te expulsaba por inactividad.
+- Al EDITAR CONCEPTO, cuando se editaba la ‘Cantidad máxima’, se debía seleccionar nuevamente la UNIDAD para que se habilite el botón de GUARDAR.
+- Error visual en CONCEPTOS, al visualizar en la tabla, la columna de CANTIDAD, se visualizaban mal algunos valores.
+
