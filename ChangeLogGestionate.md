@@ -202,3 +202,23 @@ Registro e historial de cambios y actualizaciones del proyecto GESTIONATE
 - Al EDITAR CONCEPTO, cuando se editaba la ‘Cantidad máxima’, se debía seleccionar nuevamente la UNIDAD para que se habilite el botón de GUARDAR.
 - Error visual en CONCEPTOS, al visualizar en la tabla, la columna de CANTIDAD, se visualizaban mal algunos valores.
 
+----
+## Versión: v1.24.S13
+### 17/07/24
+#
+### **Added** (Se agregó)
+- Al AGREGAR NOVEDAD, en estado ACEPTADA, el usuario se encuentra con un cartel que le informa que no puede subir comprobante. 
+- Usuario LIDER tiene que ir a su perfil de COLABORADOR para CREAR NOVEDADES propias.
+- Luego del cierre de novedades(25 al 30/31), se pueden crear novedades pero para el siguiente periodo. 
+### **Changed** (Se cambió)
+- Modificacion en tamaño de letras e idiomas en Pop-ups.
+- Se fusionaron 2 departamentos: RED COMERCIOS (ADM. COM/ PROM COMER).
+- Modificaciones en base de datos (FK)
+- Refactorización  en el componente NOVEDAD.
+- Modificaciones en ORIGENES, ahora los departamentos deshabilitados no aparecen en el desplegable.
+### **Fixed** (arreglado)
+- Mails a 'LIDERES', que llegaban duplicados.
+- Correcciones UX-UI en: Ayuda colaborador, letra negrita en error de contraseñas y nombres de empresas RRHH.
+- Correcciones en el SINCRONIZADOR.
+- Novedades exportadas con tipo CUALI.
+- Sincornizador de ORIGENES, fallaba por foco de MATERIAL.
