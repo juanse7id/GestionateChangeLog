@@ -240,7 +240,6 @@ Registro e historial de cambios y actualizaciones del proyecto GESTIONATE
 - Bases de Datos que no se utilizan en PRODUCCIÓN.
 - Archivos en TOMCAT de PREPROD.
 
-
 ### **Fixed** (arreglado)
 - Las acciones que el LÍDER puede realizar en periodo de SOLO LECTURA: novedades OBSERVADAS, puede EDITAR, DESHACER y ACEPTAR/ RECHAZAR. COLABORADOR con novedad A CORREGIR, puede EDITAR/ ELIMINAR y quedar en estado NUEVA (editable).
 - Correcciones visuales en Crear Novedad.
