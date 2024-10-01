@@ -210,15 +210,43 @@ Registro e historial de cambios y actualizaciones del proyecto GESTIONATE
 - Al AGREGAR NOVEDAD, en estado ACEPTADA, el usuario se encuentra con un cartel que le informa que no puede subir comprobante. 
 - Usuario LIDER tiene que ir a su perfil de COLABORADOR para CREAR NOVEDADES propias.
 - Luego del cierre de novedades(25 al 30/31), se pueden crear novedades pero para el siguiente periodo. 
+
 ### **Changed** (Se cambió)
 - Modificacion en tamaño de letras e idiomas en Pop-ups.
 - Se fusionaron 2 departamentos: RED COMERCIOS (ADM. COM/ PROM COMER).
 - Modificaciones en base de datos (FK)
 - Refactorización  en el componente NOVEDAD.
 - Modificaciones en ORIGENES, ahora los departamentos deshabilitados no aparecen en el desplegable.
+
 ### **Fixed** (arreglado)
 - Mails a 'LIDERES', que llegaban duplicados.
 - Correcciones UX-UI en: Ayuda colaborador, letra negrita en error de contraseñas y nombres de empresas RRHH.
 - Correcciones en el SINCRONIZADOR.
 - Novedades exportadas con tipo CUALI.
 - Sincornizador de ORIGENES, fallaba por foco de MATERIAL.
+
+----
+## Versión: v1.24.S14
+### 05/09/24
+#
+### **Added** (Se agregó)
+- Pop-Up en CREAR NOVEDAD en periodo SOLO LECTURA, para avisar a los usuarios que la novedad que van a crear será creada en el siguiente periodo.
+
+### **Changed** (Se cambió)
+- En  ORÍGENES, los departamentos DESHABILITADOS, no aparecerán en la lista desplegable de NOVEDADES POR EQUIPO. 
+- Renombrado de la Base de Datos: GESTIONATE.
+
+### **Breaking** (se quitó)
+- Bases de Datos que no se utilizan en PRODUCCIÓN.
+- Archivos en TOMCAT de PREPROD.
+
+
+### **Fixed** (arreglado)
+- Las acciones que el LÍDER puede realizar en periodo de SOLO LECTURA: novedades OBSERVADAS, puede EDITAR, DESHACER y ACEPTAR/ RECHAZAR. COLABORADOR con novedad A CORREGIR, puede EDITAR/ ELIMINAR y quedar en estado NUEVA (editable).
+- Correcciones visuales en Crear Novedad.
+- Servicio de SINCRONIZAR que se llamaba 2 veces.
+- Correcciones del lado de backend en el SINCRONIZADOR (renombre base de datos).
+- Correcciones tabla ORIGENES.
+- Correcciones USUARIOS REPETIDOS.
+
+
